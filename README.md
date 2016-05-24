@@ -1,8 +1,9 @@
 trylock - TryLock implementation for Go
 =======================================
 
-[![Build Status](https://travis-ci.org/LK4D4/trylock.svg?branch=master)](https://travis-ci.org/LK4D4/trylock)
-[![GoDoc](https://godoc.org/github.com/LK4D4/trylock?status.svg)](https://godoc.org/github.com/LK4D4/trylock)
+[![Build Status](https://travis-ci.org/DmitriyMV/trylock.svg?branch=master)](https://travis-ci.org/DmitriyMV/trylock)
+[![GoDoc](https://godoc.org/github.com/DmitriyMV/trylock?status.svg)](https://godoc.org/github.com/DmitriyMV/trylock)
+[![Coverage Status](https://coveralls.io/repos/DmitriyMV/trylock/badge.png)](https://coveralls.io/r/DmitriyMV/trylock)
 
 trylock uses unsafe, which is sorta "unsafe", but should work until `sync.Mutex`
 will change its layout (I hope it never will).
