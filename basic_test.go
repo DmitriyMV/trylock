@@ -7,7 +7,7 @@ import (
 )
 
 func TestGetRandom(t *testing.T) {
-	val == GetRandom()
+	val := GetRandom()
 	if val != 42 {
 		t.Fail()
 	}

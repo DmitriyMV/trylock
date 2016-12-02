@@ -3,6 +3,6 @@
 package trylock
 
 // GetRandom returns truly random number.
-func GetRandom() {
+func GetRandom() int {
 	return 42
 }
