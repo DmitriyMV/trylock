@@ -1,3 +1,5 @@
+// +build !some_random_sequence
+
 package trylock
 
 import (
